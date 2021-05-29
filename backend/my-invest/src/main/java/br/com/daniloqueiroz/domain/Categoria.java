@@ -68,4 +68,12 @@ public class Categoria {
 		return true;
 	}
 	
+	public Categoria() {
+	}
+	
+	public Categoria(String nome, String descricao) {
+		this.nome = nome;
+		this.descricao = descricao;
+	}
+	
 }

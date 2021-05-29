@@ -113,4 +113,16 @@ public class Investimento {
 		return true;
 	}
 	
+	public Investimento() {
+	}
+	
+	public Investimento(String codigoAtivo, Double valorCota, Integer quantidadeCotas, LocalDate dataCompra,
+			Categoria categoria) {
+		this.codigoAtivo = codigoAtivo;
+		this.valorCota = valorCota;
+		this.quantidadeCotas = quantidadeCotas;
+		this.dataCompra = dataCompra;
+		this.categoria = categoria;
+	}
+	
 }
